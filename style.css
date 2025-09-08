@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 30px;
+  background: #f7f9fc;
+}
+
+h1 {
+  color: #333;
+}
+
+.box {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  display: inline-block;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  width: 350px;
+}
+
+input, button {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  background: #4285f4;
+  color: white;
+  cursor: pointer;
+  border: none;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #3367d6;
+}
+
+p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #444;
+}
+
+/* Progress bar */
+.progress-container {
+  width: 100%;
+  background: #eee;
+  border-radius: 5px;
+  margin-top: 10px;
+  height: 15px;
+  overflow: hidden;
+  display: none;
+}
+
+.progress-bar {
+  height: 100%;
+  width: 0%;
+  background: #4285f4;
+  transition: width 0.3s;
+}
+
+/* Overlay */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.7);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.overlay-content {
+  background: white;
+  padding: 30px 40px;
+  border-radius: 10px;
+  font-size: 18px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.overlay-success {
+  border-left: 8px solid #28a745;
+  color: #28a745;
+}
+
+.overlay-error {
+  border-left: 8px solid #dc3545;
+  color: #dc3545;
+}
