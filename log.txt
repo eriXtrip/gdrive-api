@@ -5,3 +5,7 @@ upload                        c48579be59089c35ceeeebd7cd7e835f (1).jpg1UsLVwi2th
 delete                        c48579be59089c35ceeeebd7cd7e835f (1).jpg1UsLVwi2thGk92dmWZpFxH7Nko4LDiQzh                 
 download_URL                  flashcard_CIBI_Buyua.pdf           1lVQCRdOODd2i7m2evXCOi1d9DqTGYG04                 https://drive.google.com/uc?id=1lVQCRdOODd2i7m2evXCOi1d9DqTGYG04&export=download
 download_URL                  Jon_Eric_Tripulca (1).pdf          1U7HS4rzfhZH9SoEmqjiR9PWUCCGA7XFL                 https://drive.google.com/uc?id=1U7HS4rzfhZH9SoEmqjiR9PWUCCGA7XFL&export=download
+upload                        a3c904ea5a2d4a734d05f91619c03dc0.jpg1X0unKUn0a5AqxAUqqWiudUihyQxi4SVQ                 
+public_URL                    a3c904ea5a2d4a734d05f91619c03dc0.jpg1X0unKUn0a5AqxAUqqWiudUihyQxi4SVQ                 https://drive.google.com/file/d/1X0unKUn0a5AqxAUqqWiudUihyQxi4SVQ/view?usp=drivesdk
+download_URL                  a3c904ea5a2d4a734d05f91619c03dc0.jpg1X0unKUn0a5AqxAUqqWiudUihyQxi4SVQ                 https://drive.google.com/uc?id=1X0unKUn0a5AqxAUqqWiudUihyQxi4SVQ&export=download
+delete                        a3c904ea5a2d4a734d05f91619c03dc0.jpg1X0unKUn0a5AqxAUqqWiudUihyQxi4SVQ                 

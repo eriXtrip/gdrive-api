@@ -5,17 +5,26 @@
   "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^17.2.2",
     "express": "^5.1.0",
     "googleapis": "^159.0.0",
     "multer": "^2.0.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eriXtrip/gdrive-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eriXtrip/gdrive-api/issues"
+  },
+  "homepage": "https://github.com/eriXtrip/gdrive-api#readme"
 }

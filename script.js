@@ -1,3 +1,4 @@
+//GDrive API/script.js
 function showOverlay(message, isSuccess = true) {
   const overlay = document.getElementById("overlay");
   const overlayMessage = document.getElementById("overlayMessage");
@@ -34,7 +35,7 @@ async function uploadFile() {
     const formData = new FormData();
     formData.append("file", fileInput);
 
-    const response = await fetch("http://localhost:5000/upload", {
+    const response = await fetch("http://localhost:3001/api/upload", {
       method: "POST",
       body: formData,
     });
@@ -64,7 +65,7 @@ async function deleteFile() {
   }
 
   try {
-    const res = await fetch(`http://localhost:5000/delete/${fileId}`, { method: "DELETE" });
+    const res = await fetch(`http://localhost:3001/api/delete/${fileId}`, { method: "DELETE" });
     const data = await res.json();
     if (data.success) {
       document.getElementById("deleteResult").innerText = "File Deleted!";
@@ -85,7 +86,7 @@ async function shareFile() {
   }
 
   try {
-    const res = await fetch(`http://localhost:5000/share/${fileId}`);
+    const res = await fetch(`http://localhost:3001/api/share/${fileId}`);
     const data = await res.json();
     if (res.ok) {
       document.getElementById("shareResult").innerHTML =
@@ -108,7 +109,7 @@ async function generateDownloadLink() {
   }
 
   try {
-    const res = await fetch(`http://localhost:5000/download/${fileId}`);
+    const res = await fetch(`http://localhost:3001/api/download/${fileId}`);
     const data = await res.json();
     if (res.ok) {
       document.getElementById("downloadResult").innerHTML =
